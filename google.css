@@ -1,0 +1,117 @@
+/* header start */
+img {
+    width: 351px;
+    height: 113px;
+    
+}
+/* header end */
+
+/* content start */
+section {
+    width: 90%;
+    height: 145.5px;
+    display: block;
+    text-align: -webkit-center;
+    position: relative;
+    top: -14px;
+    
+}
+
+/* main start */
+main {
+    display: block;
+    text-align: -webkit-center;
+    background-color: #eeee;
+    height: 63.5px;
+}
+
+.marging {
+    margin-bottom: 2px;
+}
+
+content.position-bottom {
+    position: relative;
+    bottom: 16px;
+}
+
+content>p {
+    position: relative;
+    top: 16px;
+}
+
+input {
+    padding: 1px 2px;
+}
+
+/* left-bar start */
+.left-bar {
+    background-color: #7EE5DA;
+    width: 37%;
+    height: 76px;
+    float: left;
+}
+
+left-bar.position-bottom {
+    position: relative;
+    bottom: 22px;
+}
+
+/* center start */
+.centerise {
+    background-color: #70CCC2;
+    height: 76px;
+    width: 22.5%;
+    float: left; 
+    border-left: solid white 2px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+center.position-bottom {
+    position: relative;
+    bottom: 16px;
+}
+
+/* right-bar start */
+.right-bar {
+    background-color: #62B3AA;
+    width: 40%;
+    height: 76px;
+    float: left;
+    position: relative;
+    left: 2px;
+}
+
+right-bar.position-bottom {
+    position: relative;
+    bottom: 26px;
+}
+
+right-bar > p {
+    width: 100px;
+}
+/* content end */
+
+/* footer start */
+footer {
+    display: block;
+    text-align: -webkit-center;
+}
+
+footer > p {
+    position: relative;
+    top: -14px;
+}
+/* footer end */
+
+/* common used ones */
+.position-top {
+    position: relative;
+    top: 15px;
+}
+
+.textsize-small {
+    font-size: small;
+}
